@@ -27,7 +27,7 @@ object Solutions {
 
   def greet(): Unit = println("Hello,world")
 
-
+  def oushu(a: Int): Boolean = if (a % 2 == 0) true; else false
 
   def main(args: Array[String]): Unit = {
     var capital = Map("US" -> "Washington", "France" -> "Paris")
