@@ -17,3 +17,4 @@ echo "$bin"
 bin=`cd "$bin"; pwd`
 echo "$bin"
 if [ -e a.sh ]; then echo 1; else echo 2; fi
+
